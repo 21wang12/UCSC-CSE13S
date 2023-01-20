@@ -112,8 +112,8 @@ int main (int argc, char *argv[]){
 	}
 	write_bytes(outfile,text,text_idx);//flush
 	if(verbose){
-		printf("Compressed file size:%lu bytes\n",bytes_read);
-		printf("Dempressed file size:%lu bytes\n",bytes_written);
+		printf("Compressed file size:%llu bytes\n",bytes_read);
+		printf("Dempressed file size:%llu bytes\n",bytes_written);
 		printf("Space saving:%.2f%%\n",100*(1-(1.0*bytes_read/bytes_written)));
 	}
 	

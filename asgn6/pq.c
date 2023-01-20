@@ -101,9 +101,7 @@ void pq_print(PriorityQueue *q){
 	printf("tail:%u\n",q->tail);
 	uint32_t i = 0;
 	for(i = q->head; (i%q->capacity) != q->tail ; i++){
-		printf("frequency[%u]=%lu ",i%q->capacity,(q->items[i%q->capacity])->frequency);
-		//printf("frequency[%u]=%lu ",i%q->capacity,(q->items[i])->frequency);
-		//printf("frequency[%u]= ",i%q->capacity);
+		printf("frequency[%u]=%llu ",i%q->capacity,(q->items[i%q->capacity])->frequency);
 	}
 	printf("\n-------------\n");
 }

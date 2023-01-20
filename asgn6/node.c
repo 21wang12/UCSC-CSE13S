@@ -35,7 +35,7 @@ Node *node_join(Node *left, Node *right){
 
 void node_print(Node *n){
 	printf("----Node----\n");
-	printf("frequency:%lu",n->frequency);
+	printf("frequency:%llu",n->frequency);
 	printf("symbol:%c",n->symbol);
 	printf("-------------\n");
 }

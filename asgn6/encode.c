@@ -56,7 +56,7 @@ int main (int argc, char *argv[]){
 	memset(hist,0,sizeof(hist));
 	uint8_t c = '\0';
 	while(read_bytes(infile,&c,1)>0){
-		// c = 'a'  hist['a'] += 1;
+		// Example: c = 'a' -> hist['a'] += 1;
 		hist[c]++;
 	}
 	
@@ -97,8 +97,8 @@ int main (int argc, char *argv[]){
 	flush_codes(outfile);
 	
 	if(verbose){
-		printf("\nUncompressed file size:%lu\n",h.file_size);
-		printf("Compressed file size:%lu\n",bytes_written);
+		printf("\nUncompressed file size:%llu\n",h.file_size);
+		printf("Compressed file size:%llu\n",bytes_written);
 		printf("Space saving:%.2f%%\n",100*(1-(1.0*bytes_written/h.file_size)));
 	}
 	//9. Close infile and outfile.
