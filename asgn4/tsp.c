@@ -2,7 +2,7 @@
  *	@brief command line option:
  *	@param h : Prints out a help message describing the purpose of the graph and the command-line optionsit accepts, exiting the program afterwards. Refer to the reference program in the resources repo foran idea of what to print.
 
- *	@param v : Enables verbose printing. If enabled, the program prints out all Hamiltonian paths found aswell as the total number of recursive calls to dfs().
+ *	@param v : Enables verbose printing. If enabled, the program prints out all Hamiltonian paths found as well as the total number of recursive calls to dfs().
 
  *	@param u : Specifies the graph to be undirected.
 
