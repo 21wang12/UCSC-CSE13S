@@ -3,7 +3,7 @@ I take this course few years ago, and got an **__`A`__** in this course, all the
 
 This post describes some advices when you take this course: [CSE 13S Cheating Scandal - Thoughts and Advice](https://www.reddit.com/r/UCSC/comments/r70329/cse_13s_cheating_scandal_thoughts_and_advice/)
 
-If you need any help, please feel free and contact me at: sw3310@columbia.edu.
+⚠️Please contact me when use this code: sw3310@columbia.edu
 
 # How to use?
 
